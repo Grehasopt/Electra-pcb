@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title "Electra Project"
 Date "2021-03-21"
 Rev "1"
@@ -13,26 +13,6 @@ Comment2 "Remote Relay Switches"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Relay:RAYEX-L90 K?
-U 1 1 60C49409
-P 6050 3550
-AR Path="/60C49409" Ref="K?"  Part="1" 
-AR Path="/6072D929/60C49409" Ref="K401"  Part="1" 
-AR Path="/60BEC19B/60C49409" Ref="K?"  Part="1" 
-F 0 "K401" H 6600 3650 50  0000 C CNN
-F 1 "RAYEX-L90" H 6700 3550 50  0000 C CNN
-F 2 "Relay_THT:Relay_SPDT_Finder_36.11" H 6500 3500 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HF-Xiamen-Hongfa-Electroacoustic-HF3FF-005-1ZS_C399562.pdf" H 6400 4550 50  0001 L CNN
-F 4 "General Purpose Non Latching 5VDC SPDT Through Hole Relays RoHS" H 6050 3550 50  0001 C CNN "Description"
-F 5 "C399562" H 6050 3550 50  0001 C CNN "LCSC Part #"
-F 6 " HF(Xiamen Hongfa Electroacoustic)" H 6050 3550 50  0001 C CNN "Manufacturer"
-F 7 "10A" H 6050 3550 50  0001 C CNN "Maximum Value"
-F 8 "HF3FF/005-1ZS" H 6050 3550 50  0001 C CNN "Mfr.Part #"
-F 9 "-" H 6050 3550 50  0001 C CNN "Package Reference"
-	1    6050 3550
-	1    0    0    -1  
-$EndComp
 Text Label 6450 2900 0    50   ~ 10
 Relay-Normal-Close
 Text Label 6450 3150 0    50   ~ 10
@@ -48,8 +28,14 @@ AR Path="/6072D929/607D3AA6" Ref="D402"  Part="1"
 AR Path="/60BEC19B/607D3AA6" Ref="D?"  Part="1" 
 F 0 "D402" V 5450 3900 50  0000 R CNN
 F 1 "DIODE" V 5350 3900 50  0000 R CNN
-F 2 "" H 5400 3550 50  0001 C CNN
-F 3 "~" H 5400 3550 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 5400 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Nexperia-BAS416-115_C89953.pdf" H 5400 3550 50  0001 C CNN
+F 4 "85V 200mA 1.25V @ 150mA SOD-323 Diodes - General Purpose RoHS" H 5400 3550 50  0001 C CNN "Description"
+F 5 "C89953" H 5400 3550 50  0001 C CNN "LCSC Part #"
+F 6 "Nexperia" H 5400 3550 50  0001 C CNN "Manufacturer"
+F 7 "200mA" H 5400 3550 50  0001 C CNN "Maximum Value"
+F 8 "BAS416,115" H 5400 3550 50  0001 C CNN "Mfr.Part #"
+F 9 "SOD-323" H 5400 3550 50  0001 C CNN "Package Reference"
 	1    5400 3550
 	0    -1   -1   0   
 $EndComp
@@ -123,8 +109,6 @@ Wire Wire Line
 	6400 3950 6250 3950
 Wire Wire Line
 	6350 3150 6450 3150
-Wire Wire Line
-	6150 3150 6150 2900
 Wire Wire Line
 	6150 2900 6450 2900
 $Comp
@@ -264,4 +248,33 @@ F 9 "-" H 4300 3600 50  0001 C CNN "Package Reference"
 	1    4300 3600
 	0    1    1    0   
 $EndComp
+$Comp
+L Relay:FINDER-36.11 K?
+U 1 1 6064F621
+P 6050 3550
+AR Path="/6079F8F1/6064F621" Ref="K?"  Part="1" 
+AR Path="/6072D929/6064F621" Ref="K401"  Part="1" 
+F 0 "K401" H 6480 3596 50  0000 L CNN
+F 1 "FINDER-36.11" H 6480 3505 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_36.11" H 7320 3520 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HF-Xiamen-Hongfa-Electroacoustic-HF3FF-005-1ZS_C399562.pdf" H 6050 3550 50  0001 C CNN
+F 4 "General Purpose Non Latching 5VDC SPDT Through Hole Relays RoHS" H 6050 3550 50  0001 C CNN "Description"
+F 5 "C399562" H 6050 3550 50  0001 C CNN "LCSC Part #"
+F 6 " HF(Xiamen Hongfa Electroacoustic)" H 6050 3550 50  0001 C CNN "Manufacturer"
+F 7 "10A" H 6050 3550 50  0001 C CNN "Maximum Value"
+F 8 "HF3FF/005-1ZS" H 6050 3550 50  0001 C CNN "Mfr.Part #"
+F 9 "Finder_36.11" H 6050 3550 50  0001 C CNN "Package Reference"
+	1    6050 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3150 5850 3250
+Wire Wire Line
+	6150 2900 6150 3250
+Wire Wire Line
+	6350 3150 6350 3250
+Wire Wire Line
+	6250 3950 6250 3850
+Wire Wire Line
+	5850 3950 5850 3850
 $EndSCHEMATC

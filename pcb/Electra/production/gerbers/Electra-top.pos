@@ -1,0 +1,57 @@
+### Module positions - created on Wed Mar 24 04:22:08 2021 ###
+### Printed by Pcbnew version kicad 5.1.9-73d0e3b20d~88~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                                             PosX       PosY       Rot  Side
+C201      10uF          C_1210_3225Metric_Pad1.33x2.70mm_HandSolder     101.3375  -100.2000  180.0000  top
+C202      0.1uF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     100.7375   -97.6000  180.0000  top
+C203      100uF         CP_Elec_5x5.4                                   116.5860   -82.8040   90.0000  top
+C204      0.1uF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     106.3500   -90.2000    0.0000  top
+C205      22uF          C_1210_3225Metric_Pad1.33x2.70mm_HandSolder     111.2000  -104.8125   90.0000  top
+C206      22uF          C_1210_3225Metric_Pad1.33x2.70mm_HandSolder     114.6000  -104.8125   90.0000  top
+C207      75pF          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder      98.6000  -111.0000   90.0000  top
+C208      100uF         CP_Elec_5x5.4                                   123.6980   -82.8040   90.0000  top
+C601      0.1uF         C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     125.2000   -96.1000  180.0000  top
+C602      47uF          C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     125.2000   -97.8000  180.0000  top
+D201      DIODE         D_SMA                                           102.5000   -88.6000  270.0000  top
+D202      PWR           LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   177.8000  -116.8400   90.0000  top
+D301      R2            LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   189.9920  -116.8400   90.0000  top
+D302      200mA         D_SOD-323                                       194.5640  -106.9340    0.0000  top
+D401      R1            LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   186.9440  -116.8400   90.0000  top
+D402      200mA         D_SOD-323                                       194.5640  -109.4740    0.0000  top
+D601      TX            LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   180.8480  -116.8400   90.0000  top
+D602      RX            LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder   183.8960  -116.8400   90.0000  top
+J202      USB_B_Micro   USB_Micro-B_Molex-105017-0001                   118.0000   -73.2500  180.0000  top
+L201      15uH          L_10.4x10.4_H4.8                                110.4500   -96.6000    0.0000  top
+Q301      Q_NPN_EBC     SOT-323_SC-70                                   190.7540  -109.2200  270.0000  top
+Q401      Q_NPN_EBC     SOT-323_SC-70                                   187.4520  -109.2200  270.0000  top
+Q801      BSS138        SOT-23                                          150.9260   -82.4900  180.0000  top
+R201      511K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     101.2375  -105.7500    0.0000  top
+R202      105K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     101.2000  -107.2500  180.0000  top
+R203      80            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     177.8000  -113.2840   90.0000  top
+R204      49.9          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     101.2000  -108.8000  180.0000  top
+R205      100K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     101.2000  -110.3500    0.0000  top
+R206      13.3K         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     101.2000  -111.9000    0.0000  top
+R301      1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     183.6420  -109.9820  180.0000  top
+R302      150           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     189.9920  -113.2840  270.0000  top
+R401      1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     183.6420  -108.2040  180.0000  top
+R402      150           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     186.9440  -113.2840  270.0000  top
+R501      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     140.2080   -82.3995   90.0000  top
+R502      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     143.2560   -82.3995   90.0000  top
+R601      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     106.3880  -111.2740   90.0000  top
+R602      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     104.6100  -111.2740   90.0000  top
+R603      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     109.9440  -111.2740  270.0000  top
+R604      80            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     180.8480  -113.2840   90.0000  top
+R605      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     108.1660  -111.2740  270.0000  top
+R606      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     111.7220  -111.2740  270.0000  top
+R607      80            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     183.8960  -113.2840   90.0000  top
+R701      3.57K         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     137.1600   -82.2960  270.0000  top
+R702      7.5K          R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     134.1120   -82.2960  270.0000  top
+R703      1K            R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     131.0640   -82.2960  270.0000  top
+R801      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     153.7200   -82.4900   90.0000  top
+R802      10K           R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     148.1320   -82.4900   90.0000  top
+SW601     Flash         SW_SPST_EVQPE1                                  116.0000  -115.5000  180.0000  top
+SW602     RST           SW_SPST_EVQPE1                                  107.5000  -115.5000  180.0000  top
+U201      AMS1117-3.3   SOT-223-3_TabPin2                               122.1740   -91.1860    0.0000  top
+U202      TPS54202DDCR  SOT-23-6                                        104.8000  -104.3000  270.0000  top
+## End

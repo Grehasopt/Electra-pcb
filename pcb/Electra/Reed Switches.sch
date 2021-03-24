@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title "Electra Project"
 Date "2021-03-21"
 Rev "1"
@@ -25,7 +25,7 @@ F 0 "R501" H 3720 3346 50  0000 L CNN
 F 1 "10K" V 3650 3200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3580 3300 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1809140220_UNI-ROYAL-Uniroyal-Elec-0603WAJ0103T5E_C15401.pdf" H 3650 3300 50  0001 C CNN
-F 4 "https://datasheet.lcsc.com/szlcsc/1809140220_UNI-ROYAL-Uniroyal-Elec-0603WAJ0103T5E_C15401.pdf" H 3650 3300 50  0001 C CNN "Description"
+F 4 "10kΩ ±5% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 3650 3300 50  0001 C CNN "Description"
 F 5 "C15401" H 3650 3300 50  0001 C CNN "LCSC Part #"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 3650 3300 50  0001 C CNN "Manufacturer"
 F 7 "0.1W" H 3650 3300 50  0001 C CNN "Maximum Value"
@@ -58,7 +58,7 @@ F 5 "-" H 3850 3800 50  0001 C CNN "LCSC Part #"
 F 6 "-" H 3850 3800 50  0001 C CNN "Manufacturer"
 F 7 "-" H 3850 3800 50  0001 C CNN "Maximum Value"
 F 8 "-" H 3850 3800 50  0001 C CNN "Mfr.Part #"
-F 9 "-" H 3850 3800 50  0001 C CNN "Package Reference"
+F 9 "2.54mm 1x2" H 3850 3800 50  0001 C CNN "Package Reference"
 	1    3850 3800
 	1    0    0    -1  
 $EndComp
@@ -81,7 +81,7 @@ F 0 "R502" H 7870 3396 50  0000 L CNN
 F 1 "10K" V 7800 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7730 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1809140220_UNI-ROYAL-Uniroyal-Elec-0603WAJ0103T5E_C15401.pdf" H 7800 3350 50  0001 C CNN
-F 4 "https://datasheet.lcsc.com/szlcsc/1809140220_UNI-ROYAL-Uniroyal-Elec-0603WAJ0103T5E_C15401.pdf" H 7800 3350 50  0001 C CNN "Description"
+F 4 "10kΩ ±5% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 7800 3350 50  0001 C CNN "Description"
 F 5 "C15401" H 7800 3350 50  0001 C CNN "LCSC Part #"
 F 6 "UNI-ROYAL(Uniroyal Elec)" H 7800 3350 50  0001 C CNN "Manufacturer"
 F 7 "0.1W" H 7800 3350 50  0001 C CNN "Maximum Value"
@@ -114,7 +114,7 @@ F 5 "-" H 8000 3850 50  0001 C CNN "LCSC Part #"
 F 6 "-" H 8000 3850 50  0001 C CNN "Manufacturer"
 F 7 "-" H 8000 3850 50  0001 C CNN "Maximum Value"
 F 8 "-" H 8000 3850 50  0001 C CNN "Mfr.Part #"
-F 9 "-" H 8000 3850 50  0001 C CNN "Package Reference"
+F 9 "2.54mm 1x2" H 8000 3850 50  0001 C CNN "Package Reference"
 	1    8000 3850
 	1    0    0    -1  
 $EndComp

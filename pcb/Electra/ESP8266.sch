@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title "Electra Project"
 Date "2021-03-21"
 Rev "1"
@@ -13,20 +13,6 @@ Comment2 "Remote Relay Switches"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GNDREF #PWR?
-U 1 1 6070E99C
-P 5750 3550
-AR Path="/6070E99C" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/6070E99C" Ref="#PWR0609"  Part="1" 
-AR Path="/60B67EE4/6070E99C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0609" H 5750 3300 50  0001 C CNN
-F 1 "GNDREF" H 5755 3377 50  0001 C CNN
-F 2 "" H 5750 3550 50  0001 C CNN
-F 3 "" H 5750 3550 50  0001 C CNN
-	1    5750 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 2050 6700 2050
 Wire Wire Line
@@ -37,8 +23,6 @@ Wire Wire Line
 	6350 2450 6700 2450
 Wire Wire Line
 	6350 2550 6700 2550
-Wire Wire Line
-	5750 3550 5750 3400
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6070E9AA
@@ -94,40 +78,6 @@ F 9 "0603" H 1650 4950 50  0001 C CNN "Package Reference"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDREF #PWR?
-U 1 1 6070E9BD
-P 6400 3550
-AR Path="/6070E9BD" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/6070E9BD" Ref="#PWR0612"  Part="1" 
-AR Path="/60B67EE4/6070E9BD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0612" H 6400 3300 50  0001 C CNN
-F 1 "GNDREF" H 6405 3377 50  0001 C CNN
-F 2 "" H 6400 3550 50  0001 C CNN
-F 3 "" H 6400 3550 50  0001 C CNN
-	1    6400 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 6070E9C3
-P 1650 5350
-AR Path="/6070E9C3" Ref="SW?"  Part="1" 
-AR Path="/606FF326/6070E9C3" Ref="SW601"  Part="1" 
-AR Path="/60B67EE4/6070E9C3" Ref="SW?"  Part="1" 
-F 0 "SW601" V 1696 5302 50  0000 R CNN
-F 1 "SW_MEC_5G" V 1605 5302 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 1650 5550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 1650 5550 50  0001 C CNN
-F 4 "SMD Tactile Switches RoHS" H 1650 5350 50  0001 C CNN "Description"
-F 5 "C557591" H 1650 5350 50  0001 C CNN "LCSC Part #"
-F 6 "SHOU HAN" H 1650 5350 50  0001 C CNN "Manufacturer"
-F 7 "Pad |<- 3.4mm ->|  [2.1x2mm]" H 1650 5350 50  0001 C CNN "Maximum Value"
-F 8 "TS342A2P-WZ" H 1650 5350 50  0001 C CNN "Mfr.Part #"
-F 9 "3.95x2.9x2mm" H 1650 5350 50  0001 C CNN "Package Reference"
-	1    1650 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3V3 #PWR?
 U 1 1 6070E9C9
 P 6400 1300
@@ -161,7 +111,6 @@ Wire Wire Line
 	1650 4800 1650 4350
 Wire Wire Line
 	1450 5150 1650 5150
-Connection ~ 1650 5150
 Wire Wire Line
 	6400 1300 6400 1450
 Wire Wire Line
@@ -271,26 +220,6 @@ F 9 "0603" H 4050 4850 50  0001 C CNN "Package Reference"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 6070EA39
-P 4050 5250
-AR Path="/6070EA39" Ref="SW?"  Part="1" 
-AR Path="/606FF326/6070EA39" Ref="SW602"  Part="1" 
-AR Path="/60B67EE4/6070EA39" Ref="SW?"  Part="1" 
-F 0 "SW602" V 4096 5202 50  0000 R CNN
-F 1 "SW_MEC_5G" V 4005 5202 50  0000 R CNN
-F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 4050 5450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 4050 5450 50  0001 C CNN
-F 4 "SMD Tactile Switches RoHS" H 4050 5250 50  0001 C CNN "Description"
-F 5 "C557591" H 4050 5250 50  0001 C CNN "LCSC Part #"
-F 6 "SHOU HAN" H 4050 5250 50  0001 C CNN "Manufacturer"
-F 7 "Pad |<- 3.4mm ->|  [2.1x2mm]" H 4050 5250 50  0001 C CNN "Maximum Value"
-F 8 "TS342A2P-WZ" H 4050 5250 50  0001 C CNN "Mfr.Part #"
-F 9 "3.95x2.9x2mm" H 4050 5250 50  0001 C CNN "Package Reference"
-	1    4050 5250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3V3 #PWR?
 U 1 1 6070EA3F
 P 4050 4250
@@ -304,27 +233,12 @@ F 3 "" H 4050 4250 50  0001 C CNN
 	1    4050 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 6070EA45
-P 4050 5950
-AR Path="/6070EA45" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/6070EA45" Ref="#PWR0606"  Part="1" 
-AR Path="/60B67EE4/6070EA45" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0606" H 4050 5700 50  0001 C CNN
-F 1 "GNDREF" H 4055 5777 50  0001 C CNN
-F 2 "" H 4050 5950 50  0001 C CNN
-F 3 "" H 4050 5950 50  0001 C CNN
-	1    4050 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 5000 4050 5050
 Wire Wire Line
 	4050 4700 4050 4250
 Wire Wire Line
 	3850 5050 4050 5050
-Connection ~ 4050 5050
 Text Label 4800 1950 0    50   ~ 10
 ~RST
 Text Label 3850 5050 2    50   ~ 10
@@ -398,24 +312,6 @@ $EndComp
 NoConn ~ 10250 4950
 NoConn ~ 10250 5350
 $Comp
-L power:GNDREF #PWR?
-U 1 1 6082871C
-P 9800 6000
-AR Path="/6082871C" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/6082871C" Ref="#PWR0615"  Part="1" 
-AR Path="/60B67EE4/6082871C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0615" H 9800 5750 50  0001 C CNN
-F 1 "GNDREF" H 9805 5827 50  0001 C CNN
-F 2 "" H 9800 6000 50  0001 C CNN
-F 3 "" H 9800 6000 50  0001 C CNN
-	1    9800 6000
-	1    0    0    -1  
-$EndComp
-Text Label 10050 5050 2    39   ~ 8
-TX
-Text Label 10050 5150 2    39   ~ 8
-RX
-$Comp
 L power:+3V3 #PWR?
 U 1 1 6082E114
 P 9800 4250
@@ -456,7 +352,7 @@ F 0 "R607" V 7900 4900 50  0000 C CNN
 F 1 "80" V 8000 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7930 4900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_BOURNS-CR0603-FX-80R6ELF_C202954.pdf" H 8000 4900 50  0001 C CNN
-F 4 " 	80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 8000 4900 50  0001 C CNN "Description"
+F 4 "80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 8000 4900 50  0001 C CNN "Description"
 F 5 "C202954" H 8000 4900 50  0001 C CNN "LCSC Part #"
 F 6 "BOURNS" H 8000 4900 50  0001 C CNN "Manufacturer"
 F 7 "0.1W" H 8000 4900 50  0001 C CNN "Maximum Value"
@@ -482,40 +378,10 @@ F 9 "0603" H 8000 5250 50  0001 C CNN "Package Reference"
 	1    8000 5250
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 608E153E
-P 8000 5950
-AR Path="/608E153E" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/608E153E" Ref="#PWR0613"  Part="1" 
-AR Path="/60B67EE4/608E153E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0613" H 8000 5700 50  0001 C CNN
-F 1 "GNDREF" H 8005 5777 50  0001 C CNN
-F 2 "" H 8000 5950 50  0001 C CNN
-F 3 "" H 8000 5950 50  0001 C CNN
-	1    8000 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 608E1CBA
-P 6150 5950
-AR Path="/608E1CBA" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/608E1CBA" Ref="#PWR0610"  Part="1" 
-AR Path="/60B67EE4/608E1CBA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0610" H 6150 5700 50  0001 C CNN
-F 1 "GNDREF" H 6155 5777 50  0001 C CNN
-F 2 "" H 6150 5950 50  0001 C CNN
-F 3 "" H 6150 5950 50  0001 C CNN
-	1    6150 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 5950 8000 5400
 Wire Wire Line
 	8000 5100 8000 5050
-Wire Wire Line
-	10050 5050 10250 5050
 Wire Wire Line
 	10050 5150 10250 5150
 Wire Wire Line
@@ -550,7 +416,7 @@ F 0 "R604" V 6050 4950 50  0000 C CNN
 F 1 "80" V 6150 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6080 4950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_BOURNS-CR0603-FX-80R6ELF_C202954.pdf" H 6150 4950 50  0001 C CNN
-F 4 " 	80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 6150 4950 50  0001 C CNN "Description"
+F 4 "80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 6150 4950 50  0001 C CNN "Description"
 F 5 "C202954" H 6150 4950 50  0001 C CNN "LCSC Part #"
 F 6 "BOURNS" H 6150 4950 50  0001 C CNN "Manufacturer"
 F 7 "0.1W" H 6150 4950 50  0001 C CNN "Maximum Value"
@@ -585,20 +451,6 @@ F 1 "+3V3" H 1850 2100 50  0000 C CNN
 F 2 "" H 2000 2000 50  0001 C CNN
 F 3 "" H 2000 2000 50  0001 C CNN
 	1    2000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR?
-U 1 1 609CD49E
-P 2000 2700
-AR Path="/609CD49E" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/609CD49E" Ref="#PWR0604"  Part="1" 
-AR Path="/60B67EE4/609CD49E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0604" H 2000 2450 50  0001 C CNN
-F 1 "GNDREF" H 2005 2527 50  0001 C CNN
-F 2 "" H 2000 2700 50  0001 C CNN
-F 3 "" H 2000 2700 50  0001 C CNN
-	1    2000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -663,34 +515,6 @@ Text Notes 1200 3000 0    50   ~ 0
 Put those C as close as possible to the MCU 
 Wire Wire Line
 	1650 5550 1650 6000
-$Comp
-L power:GNDREF #PWR?
-U 1 1 60B7B5E0
-P 1650 6000
-AR Path="/60B7B5E0" Ref="#PWR?"  Part="1" 
-AR Path="/606FF326/60B7B5E0" Ref="#PWR0602"  Part="1" 
-AR Path="/60B67EE4/60B7B5E0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0602" H 1650 5750 50  0001 C CNN
-F 1 "GNDREF" H 1655 5827 50  0001 C CNN
-F 2 "" H 1650 6000 50  0001 C CNN
-F 3 "" H 1650 6000 50  0001 C CNN
-	1    1650 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0601
-U 1 1 60B88B1E
-P 5750 3400
-F 0 "#FLG0601" H 5750 3475 50  0001 C CNN
-F 1 "PWR_FLAG" V 5750 3528 50  0001 L CNN
-F 2 "" H 5750 3400 50  0001 C CNN
-F 3 "~" H 5750 3400 50  0001 C CNN
-	1    5750 3400
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5750 3400
-Wire Wire Line
-	5750 3400 5750 3250
 Wire Wire Line
 	5750 1300 5750 1750
 $Comp
@@ -700,7 +524,7 @@ P 9800 4750
 F 0 "JP601" V 9850 5550 50  0000 R CNN
 F 1 "Jumper_NC_Small" V 9750 5550 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9800 4750 50  0001 C CNN
-F 3 "~" H 9800 4750 50  0001 C CNN
+F 3 "-" H 9800 4750 50  0001 C CNN
 F 4 "-" H 9800 4750 50  0001 C CNN "Description"
 F 5 "-" H 9800 4750 50  0001 C CNN "LCSC Part #"
 F 6 "-" H 9800 4750 50  0001 C CNN "Manufacturer"
@@ -713,7 +537,139 @@ $EndComp
 Wire Wire Line
 	9800 4250 9800 4650
 Wire Wire Line
-	9800 4850 9800 5250
-Wire Wire Line
 	9800 5250 10250 5250
+Wire Wire Line
+	9800 4850 9800 5250
+Text Label 10050 5150 2    39   ~ 8
+RX
+Text Label 10050 5050 2    39   ~ 8
+TX
+Wire Wire Line
+	10050 5050 10250 5050
+$Comp
+L Switch:SW_Push SW601
+U 1 1 6065C688
+P 1650 5350
+F 0 "SW601" V 1696 5302 50  0000 R CNN
+F 1 "SW_Push" V 1605 5302 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 1650 5550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 1650 5550 50  0001 C CNN
+F 4 "SMD Tactile Switches RoHS" H 1650 5350 50  0001 C CNN "Description"
+F 5 "C557591" H 1650 5350 50  0001 C CNN "LCSC Part #"
+F 6 "SHOU HAN" H 1650 5350 50  0001 C CNN "Manufacturer"
+F 7 "Pad |<- 3.4mm ->|  [2.1x2mm]" H 1650 5350 50  0001 C CNN "Maximum Value"
+F 8 "TS342A2P-WZ" H 1650 5350 50  0001 C CNN "Mfr.Part #"
+F 9 "3.95x2.9x2mm" H 1650 5350 50  0001 C CNN "Package Reference"
+	1    1650 5350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1650 5150
+$Comp
+L Switch:SW_Push SW602
+U 1 1 6065F662
+P 4050 5250
+F 0 "SW602" V 4096 5202 50  0000 R CNN
+F 1 "SW_Push" V 4005 5202 50  0000 R CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 4050 5450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 4050 5450 50  0001 C CNN
+F 4 "SMD Tactile Switches RoHS" H 4050 5250 50  0001 C CNN "Description"
+F 5 "C557591" H 4050 5250 50  0001 C CNN "LCSC Part #"
+F 6 "SHOU HAN" H 4050 5250 50  0001 C CNN "Manufacturer"
+F 7 "Pad |<- 3.4mm ->|  [2.1x2mm]" H 4050 5250 50  0001 C CNN "Maximum Value"
+F 8 "TS342A2P-WZ" H 4050 5250 50  0001 C CNN "Mfr.Part #"
+F 9 "3.95x2.9x2mm" H 4050 5250 50  0001 C CNN "Package Reference"
+	1    4050 5250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4050 5050
+$Comp
+L power:GND #PWR0604
+U 1 1 607D805C
+P 2000 2700
+F 0 "#PWR0604" H 2000 2450 50  0001 C CNN
+F 1 "GND" H 2005 2527 50  0000 C CNN
+F 2 "" H 2000 2700 50  0001 C CNN
+F 3 "" H 2000 2700 50  0001 C CNN
+	1    2000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0602
+U 1 1 607D9C5B
+P 1650 6000
+F 0 "#PWR0602" H 1650 5750 50  0001 C CNN
+F 1 "GND" H 1655 5827 50  0000 C CNN
+F 2 "" H 1650 6000 50  0001 C CNN
+F 3 "" H 1650 6000 50  0001 C CNN
+	1    1650 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0606
+U 1 1 607DFB65
+P 4050 5950
+F 0 "#PWR0606" H 4050 5700 50  0001 C CNN
+F 1 "GND" H 4055 5777 50  0000 C CNN
+F 2 "" H 4050 5950 50  0001 C CNN
+F 3 "" H 4050 5950 50  0001 C CNN
+	1    4050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0610
+U 1 1 607E0782
+P 6150 5950
+F 0 "#PWR0610" H 6150 5700 50  0001 C CNN
+F 1 "GND" H 6155 5777 50  0000 C CNN
+F 2 "" H 6150 5950 50  0001 C CNN
+F 3 "" H 6150 5950 50  0001 C CNN
+	1    6150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0613
+U 1 1 607E0A84
+P 8000 5950
+F 0 "#PWR0613" H 8000 5700 50  0001 C CNN
+F 1 "GND" H 8005 5777 50  0000 C CNN
+F 2 "" H 8000 5950 50  0001 C CNN
+F 3 "" H 8000 5950 50  0001 C CNN
+	1    8000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0615
+U 1 1 607E1945
+P 9800 6000
+F 0 "#PWR0615" H 9800 5750 50  0001 C CNN
+F 1 "GND" H 9805 5827 50  0000 C CNN
+F 2 "" H 9800 6000 50  0001 C CNN
+F 3 "" H 9800 6000 50  0001 C CNN
+	1    9800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0609
+U 1 1 607E3F3E
+P 5750 3550
+F 0 "#PWR0609" H 5750 3300 50  0001 C CNN
+F 1 "GND" H 5755 3377 50  0000 C CNN
+F 2 "" H 5750 3550 50  0001 C CNN
+F 3 "" H 5750 3550 50  0001 C CNN
+	1    5750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0612
+U 1 1 607E513F
+P 6400 3550
+F 0 "#PWR0612" H 6400 3300 50  0001 C CNN
+F 1 "GND" H 6405 3377 50  0000 C CNN
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3250 5750 3550
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "Electra Project"
 Date "2021-03-21"
 Rev "1"
@@ -30,6 +30,7 @@ F 5 "0603" H 5100 2350 50  0001 C CNN "Package Reference"
 F 6 "511kΩ ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 5100 2350 50  0001 C CNN "Description"
 F 7 "C23194" H 5100 2350 50  0001 C CNN "LCSC Part #"
 F 8 "0603WAF5113T5E" H 5100 2350 50  0001 C CNN "Mfr.Part #"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 5100 2350 50  0001 C CNN "Manufacturer"
 	1    5100 2350
 	1    0    0    -1  
 $EndComp
@@ -48,6 +49,7 @@ F 5 "C124375" H 8900 2200 50  0001 C CNN "LCSC Part #"
 F 6 "-" H 8900 2200 50  0001 C CNN "Maximum Value"
 F 7 "C124375" H 8900 2200 50  0001 C CNN "Mfr.Part #"
 F 8 "2.54mm" H 8900 2200 50  0001 C CNN "Package Reference"
+F 9 "Ckmtw(Shenzhen Cankemeng)" H 8900 2200 50  0001 C CNN "Manufacturer"
 	1    8900 2200
 	1    0    0    -1  
 $EndComp
@@ -112,6 +114,7 @@ F 5 "C3347" H 6350 5250 50  0001 C CNN "LCSC Part #"
 F 6 "10V" H 6350 5250 50  0001 C CNN "Maximum Value"
 F 7 "RVT1A101M0505" H 6350 5250 50  0001 C CNN "Mfr.Part #"
 F 8 "SMD,5x5.4mm" H 6350 5250 50  0001 C CNN "Package Reference"
+F 9 "Honor Elec" H 6350 5250 50  0001 C CNN "Manufacturer"
 	1    6350 5250
 	1    0    0    -1  
 $EndComp
@@ -128,6 +131,7 @@ F 5 "C3347" H 9900 2750 50  0001 C CNN "LCSC Part #"
 F 6 "10V" H 9900 2750 50  0001 C CNN "Maximum Value"
 F 7 "RVT1A101M0505" H 9900 2750 50  0001 C CNN "Mfr.Part #"
 F 8 "SMD,5x5.4mm" H 9900 2750 50  0001 C CNN "Package Reference"
+F 9 "Honor Elec" H 9900 2750 50  0001 C CNN "Manufacturer"
 	1    9900 2750
 	1    0    0    -1  
 $EndComp
@@ -163,24 +167,9 @@ F 5 "C72043" H 7000 5350 50  0001 C CNN "LCSC Part #"
 F 6 "15mA" H 7000 5350 50  0001 C CNN "Maximum Value"
 F 7 "19-217/GHC-YR1S2/3T" H 7000 5350 50  0001 C CNN "Mfr.Part #"
 F 8 "0603" H 7000 5350 50  0001 C CNN "Package Reference"
+F 9 "Everlight Elec" H 7000 5350 50  0001 C CNN "Manufacturer"
 	1    7000 5350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R203
-U 1 1 60BE5E4B
-P 7000 5050
-F 0 "R203" V 6900 5150 50  0000 R CNN
-F 1 "80" V 7000 5100 50  0000 R CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 6930 5050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Ever-Ohms-Tech-CR0603F80R6P05_C429015.pdf" H 7000 5050 50  0001 C CNN
-F 4 "0603" H 7000 5050 50  0001 C CNN "Package Reference"
-F 5 "80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 7000 5050 50  0001 C CNN "Description"
-F 6 "C429015" H 7000 5050 50  0001 C CNN "LCSC Part #"
-F 7 "0.1W" H 7000 5050 50  0001 C CNN "Maximum Value"
-F 8 "CR0603F80R6P05" H 7000 5050 50  0001 C CNN "Mfr.Part #"
-	1    7000 5050
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7000 4700 7000 4800
@@ -432,6 +421,7 @@ F 5 "C10418" H 4100 5000 50  0001 C CNN "LCSC Part #"
 F 6 "USB 2.0 " H 4100 5000 50  0001 C CNN "Maximum Value"
 F 7 "920-E52A2021S10100" H 4100 5000 50  0001 C CNN "Mfr.Part #"
 F 8 "SMD" H 4100 5000 50  0001 C CNN "Package Reference"
+F 9 "Jing Extension of the Electronic Co." H 4100 5000 50  0001 C CNN "Manufacturer"
 	1    4100 5000
 	1    0    0    -1  
 $EndComp
@@ -514,6 +504,7 @@ F 5 "10.2x10x3.8mm" H 7000 2200 50  0001 C CNN "Package Reference"
 F 6 "15uH ±30% 3.5A 50mΩ SMD,10.2x10x3.8mm Power Inductors RoHS" H 7000 2200 50  0001 C CNN "Description"
 F 7 "C225048" H 7000 2200 50  0001 C CNN "LCSC Part #"
 F 8 "CDRH104RNP-150NC" H 7000 2200 50  0001 C CNN "Mfr.Part #"
+F 9 "Sumida" H 7000 2200 50  0001 C CNN "Manufacturer"
 	1    7000 2200
 	0    -1   -1   0   
 $EndComp
@@ -574,6 +565,7 @@ F 5 "0603" H 8250 3150 50  0001 C CNN "Package Reference"
 F 6 "13.3kΩ ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 8250 3150 50  0001 C CNN "Description"
 F 7 "C25952" H 8250 3150 50  0001 C CNN "LCSC Part #"
 F 8 "0603WAF1332T5E" H 8250 3150 50  0001 C CNN "Mfr.Part #"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 8250 3150 50  0001 C CNN "Manufacturer"
 	1    8250 3150
 	1    0    0    -1  
 $EndComp
@@ -590,6 +582,7 @@ F 5 "0603" H 8250 2750 50  0001 C CNN "Package Reference"
 F 6 "100kΩ ±5% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 8250 2750 50  0001 C CNN "Description"
 F 7 "C15458" H 8250 2750 50  0001 C CNN "LCSC Part #"
 F 8 "0603WAJ0104T5E" H 8250 2750 50  0001 C CNN "Mfr.Part #"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 8250 2750 50  0001 C CNN "Manufacturer"
 	1    8250 2750
 	1    0    0    -1  
 $EndComp
@@ -606,6 +599,7 @@ F 5 "0603" H 8250 2350 50  0001 C CNN "Package Reference"
 F 6 "49.9Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 8250 2350 50  0001 C CNN "Description"
 F 7 "C163926" H 8250 2350 50  0001 C CNN "LCSC Part #"
 F 8 "WR06X49R9FTL" H 8250 2350 50  0001 C CNN "Mfr.Part #"
+F 9 "Walsin Tech Corp" H 8250 2350 50  0001 C CNN "Manufacturer"
 	1    8250 2350
 	1    0    0    -1  
 $EndComp
@@ -622,6 +616,7 @@ F 5 "0603" H 5100 2900 50  0001 C CNN "Package Reference"
 F 6 "105kΩ ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 5100 2900 50  0001 C CNN "Description"
 F 7 "C16840" H 5100 2900 50  0001 C CNN "LCSC Part #"
 F 8 "0603WAF1053T5E" H 5100 2900 50  0001 C CNN "Mfr.Part #"
+F 9 "UNI-ROYAL(Uniroyal Elec)" H 5100 2900 50  0001 C CNN "Manufacturer"
 	1    5100 2900
 	1    0    0    -1  
 $EndComp
@@ -638,6 +633,7 @@ F 5 "1210" H 7700 2350 50  0001 C CNN "Package Reference"
 F 6 " 22uF ±10% 25V X7R 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 7700 2350 50  0001 C CNN "Description"
 F 7 "C337451" H 7700 2350 50  0001 C CNN "LCSC Part #"
 F 8 "TMK325B7226KM-PR" H 7700 2350 50  0001 C CNN "Mfr.Part #"
+F 9 "Taiyo Yuden" H 7700 2350 50  0001 C CNN "Manufacturer"
 	1    7700 2350
 	-1   0    0    1   
 $EndComp
@@ -654,6 +650,7 @@ F 5 "0603" H 8000 2750 50  0001 C CNN "Package Reference"
 F 6 "75pF ±5% 50V C0G 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 8000 2750 50  0001 C CNN "Description"
 F 7 "C1681" H 8000 2750 50  0001 C CNN "LCSC Part #"
 F 8 "0603CG750J500NT" H 8000 2750 50  0001 C CNN "Mfr.Part #"
+F 9 "FH(Guangdong Fenghua Advanced Tech)" H 8000 2750 50  0001 C CNN "Manufacturer"
 	1    8000 2750
 	-1   0    0    1   
 $EndComp
@@ -670,6 +667,7 @@ F 5 "1210" H 7300 2350 50  0001 C CNN "Package Reference"
 F 6 " 22uF ±10% 25V X7R 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 7300 2350 50  0001 C CNN "Description"
 F 7 "C337451" H 7300 2350 50  0001 C CNN "LCSC Part #"
 F 8 "TMK325B7226KM-PR" H 7300 2350 50  0001 C CNN "Mfr.Part #"
+F 9 "Taiyo Yuden" H 7300 2350 50  0001 C CNN "Manufacturer"
 	1    7300 2350
 	-1   0    0    1   
 $EndComp
@@ -686,6 +684,7 @@ F 5 "0603" H 6450 2000 50  0001 C CNN "Package Reference"
 F 6 "100nF ±10% 25V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 6450 2000 50  0001 C CNN "Description"
 F 7 "C92490" H 6450 2000 50  0001 C CNN "LCSC Part #"
 F 8 "CC0603KRX7R8BB104" H 6450 2000 50  0001 C CNN "Mfr.Part #"
+F 9 "YAGEO" H 6450 2000 50  0001 C CNN "Manufacturer"
 	1    6450 2000
 	0    1    1    0   
 $EndComp
@@ -702,6 +701,7 @@ F 5 "0603" H 4550 2600 50  0001 C CNN "Package Reference"
 F 6 "100nF ±10% 25V X7R 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 4550 2600 50  0001 C CNN "Description"
 F 7 "C92490" H 4550 2600 50  0001 C CNN "LCSC Part #"
 F 8 "CC0603KRX7R8BB104" H 4550 2600 50  0001 C CNN "Mfr.Part #"
+F 9 "YAGEO" H 4550 2600 50  0001 C CNN "Manufacturer"
 	1    4550 2600
 	1    0    0    -1  
 $EndComp
@@ -718,6 +718,7 @@ F 5 "1210" H 4150 2600 50  0001 C CNN "Package Reference"
 F 6 "10uF ±10% 35V X5R 1210 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS" H 4150 2600 50  0001 C CNN "Description"
 F 7 "C92799" H 4150 2600 50  0001 C CNN "LCSC Part #"
 F 8 "GMK325BJ106KN-T" H 4150 2600 50  0001 C CNN "Mfr.Part #"
+F 9 "Taiyo Yuden" H 4150 2600 50  0001 C CNN "Manufacturer"
 	1    4150 2600
 	1    0    0    -1  
 $EndComp
@@ -793,6 +794,7 @@ F 5 "C18905" H 3250 2100 50  0001 C CNN "LCSC Part #"
 F 6 "2A" H 3250 2100 50  0001 C CNN "Maximum Value"
 F 7 "S2M" H 3250 2100 50  0001 C CNN "Mfr.Part #"
 F 8 " SMA(DO-214AC)" H 3250 2100 50  0001 C CNN "Package Reference"
+F 9 "MDD(Microdiode Electronics)" H 3250 2100 50  0001 C CNN "Manufacturer"
 	1    3250 2100
 	1    0    0    -1  
 $EndComp
@@ -809,7 +811,25 @@ F 5 "C16214" H 1750 2200 50  0001 C CNN "LCSC Part #"
 F 6 "~<5A" H 1750 2200 50  0001 C CNN "Maximum Value"
 F 7 "DC-005 5.5-2.0MM" H 1750 2200 50  0001 C CNN "Mfr.Part #"
 F 8 "-" H 1750 2200 50  0001 C CNN "Package Reference"
+F 9 "BOOMELE(Boom Precision Elec)" H 1750 2200 50  0001 C CNN "Manufacturer"
 	1    1750 2200
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R203
+U 1 1 60BE5E4B
+P 7000 5050
+F 0 "R203" V 6900 5150 50  0000 R CNN
+F 1 "80" V 7000 5100 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6930 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Ever-Ohms-Tech-CR0603F80R6P05_C429015.pdf" H 7000 5050 50  0001 C CNN
+F 4 "0603" H 7000 5050 50  0001 C CNN "Package Reference"
+F 5 "80.6Ω ±1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS" H 7000 5050 50  0001 C CNN "Description"
+F 6 "C429015" H 7000 5050 50  0001 C CNN "LCSC Part #"
+F 7 "0.1W" H 7000 5050 50  0001 C CNN "Maximum Value"
+F 8 "CR0603F80R6P05" H 7000 5050 50  0001 C CNN "Mfr.Part #"
+F 9 "Ever Ohms Tech" H 7000 5050 50  0001 C CNN "Manufacturer"
+	1    7000 5050
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
