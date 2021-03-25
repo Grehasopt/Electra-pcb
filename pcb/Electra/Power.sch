@@ -23,7 +23,7 @@ U 1 1 60BE5DED
 P 5100 2350
 F 0 "R201" V 5000 2250 50  0000 L CNN
 F 1 "511K" V 5100 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5030 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5030 2350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811081723_UNI-ROYAL-Uniroyal-Elec-0603WAF5113T5E_C23194.pdf" H 5100 2350 50  0001 C CNN
 F 4 "0.1W" H 5100 2350 50  0001 C CNN "Maximum Value"
 F 5 "0603" H 5100 2350 50  0001 C CNN "Package Reference"
@@ -159,7 +159,7 @@ L Device:LED D202
 U 1 1 60BE5E40
 P 7000 5350
 F 0 "D202" V 7050 5250 50  0000 R CNN
-F 1 "Power Led" V 6950 5250 50  0000 R CNN
+F 1 "PWR" V 6950 5250 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 5350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 7000 5350 50  0001 C CNN
 F 4 "Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS" H 7000 5350 50  0001 C CNN "Description"
@@ -413,7 +413,7 @@ L Connector:USB_B_Micro J202
 U 1 1 60BE5EE4
 P 4100 5000
 F 0 "J202" H 4157 5467 50  0000 C CNN
-F 1 "USB_B_Micro" H 4157 5376 50  0000 C CNN
+F 1 "USB" H 4157 5376 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4250 4950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2103051832_Jing-Extension-of-the-Electronic-Co-920-E52A2021S10100_C10418.pdf" H 4250 4950 50  0001 C CNN
 F 4 "USB - Micro B Female USB 2.0 5 SMD USB Connectors RoHS" H 4100 5000 50  0001 C CNN "Description"
@@ -558,7 +558,7 @@ U 1 1 60BE5F38
 P 8250 3150
 F 0 "R206" V 8350 3050 50  0000 L CNN
 F 1 "13.3K" V 8250 3050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 8180 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8180 3150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811021221_UNI-ROYAL-Uniroyal-Elec-0603WAF1332T5E_C25952.pdf" H 8250 3150 50  0001 C CNN
 F 4 "0.1W" H 8250 3150 50  0001 C CNN "Maximum Value"
 F 5 "0603" H 8250 3150 50  0001 C CNN "Package Reference"
@@ -575,7 +575,7 @@ U 1 1 60BE5F43
 P 8250 2750
 F 0 "R205" V 8350 2650 50  0000 L CNN
 F 1 "100K" V 8250 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 8180 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8180 2750 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAJ0104T5E_C15458.pdf" H 8250 2750 50  0001 C CNN
 F 4 "0.1W" H 8250 2750 50  0001 C CNN "Maximum Value"
 F 5 "0603" H 8250 2750 50  0001 C CNN "Package Reference"
@@ -592,7 +592,7 @@ U 1 1 60BE5F4E
 P 8250 2350
 F 0 "R204" V 8350 2250 50  0000 L CNN
 F 1 "49.9" V 8250 2250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 8180 2350 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8180 2350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811151149_Walsin-Tech-Corp-WR06X49R9FTL_C163926.pdf" H 8250 2350 50  0001 C CNN
 F 4 "0.1W" H 8250 2350 50  0001 C CNN "Maximum Value"
 F 5 "0603" H 8250 2350 50  0001 C CNN "Package Reference"
@@ -609,7 +609,7 @@ U 1 1 60BE5F59
 P 5100 2900
 F 0 "R202" V 5000 2800 50  0000 L CNN
 F 1 "105K" V 5100 2800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" V 5030 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5030 2900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811151640_UNI-ROYAL-Uniroyal-Elec-0603WAF1053T5E_C16840.pdf" H 5100 2900 50  0001 C CNN
 F 4 "0.1W" H 5100 2900 50  0001 C CNN "Maximum Value"
 F 5 "0603" H 5100 2900 50  0001 C CNN "Package Reference"
@@ -803,7 +803,7 @@ L Connector:Barrel_Jack J201
 U 1 1 60BE5FD1
 P 1750 2200
 F 0 "J201" H 1750 2400 50  0000 C CNN
-F 1 "8-28VIn" H 1750 2000 50  0000 C CNN
+F 1 "8-28V" H 1750 2000 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1800 2160 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1811051112_BOOMELE-Boom-Precision-Elec-DC-005-5-5-2-0MM_C16214.pdf" H 1800 2160 50  0001 C CNN
 F 4 "Through Hole AC/DC Power Plugs & Receptacles RoHS" H 1750 2200 50  0001 C CNN "Description"

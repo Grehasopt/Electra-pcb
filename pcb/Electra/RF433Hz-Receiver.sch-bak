@@ -159,7 +159,7 @@ P 7500 3800
 AR Path="/605DECF5" Ref="J?"  Part="1" 
 AR Path="/605DAAEC/605DECF5" Ref="J801"  Part="1" 
 F 0 "J801" H 7528 3776 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 7528 3685 50  0000 L CNN
+F 1 "RF433" H 7528 3685 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7500 3800 50  0001 C CNN
 F 3 "-" H 7500 3800 50  0001 C CNN
 F 4 "-" H 7500 3800 50  0001 C CNN "Mfr.Part #"

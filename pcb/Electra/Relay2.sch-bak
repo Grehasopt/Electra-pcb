@@ -28,7 +28,7 @@ AR Path="/6072D929/60C4940A" Ref="D?"  Part="1"
 AR Path="/60BEC19B/60C4940A" Ref="D?"  Part="1" 
 AR Path="/6079F8F1/60C4940A" Ref="D302"  Part="1" 
 F 0 "D302" V 5450 3900 50  0000 R CNN
-F 1 "DIODE" V 5350 3900 50  0000 R CNN
+F 1 "200mA" V 5350 3900 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 5400 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Nexperia-BAS416-115_C89953.pdf" H 5400 3550 50  0001 C CNN
 F 4 "85V 200mA 1.25V @ 150mA SOD-323 Diodes - General Purpose RoHS" H 5400 3550 50  0001 C CNN "Description"
@@ -70,7 +70,7 @@ L Connector:Screw_Terminal_01x03 J301
 U 1 1 60C4940C
 P 9300 3700
 F 0 "J301" H 9380 3742 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 9380 3651 50  0000 L CNN
+F 1 "Relay 2/D" H 9380 3651 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 9300 3700 50  0001 C CNN
 F 3 "~" H 9300 3700 50  0001 C CNN
 	1    9300 3700
@@ -128,8 +128,8 @@ $Comp
 L Connector:TestPoint TP301
 U 1 1 60C4940E
 P 3200 4550
-F 0 "TP301" H 3050 4900 50  0000 L CNN
-F 1 "Test Relay" H 3050 4800 50  0000 L CNN
+F 0 "TP301" H 3150 4900 50  0000 L CNN
+F 1 "T2" H 3150 4800 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3400 4550 50  0001 C CNN
 F 3 "-" H 3400 4550 50  0001 C CNN
 F 4 "Give 3V3 Volts to test relay" H 3200 4550 50  0001 C CNN "Description"
@@ -164,12 +164,12 @@ L Device:LED D301
 U 1 1 60C49410
 P 4300 3200
 F 0 "D301" V 4339 3082 50  0000 R CNN
-F 1 "LED" V 4248 3082 50  0000 R CNN
+F 1 "R2" V 4248 3082 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0603R1_C84263.pdf" H 4300 3200 50  0001 C CNN
-F 4 "Red 615~630nm 0603 Light Emitting Diodes (LED) RoHS" H 4300 3200 50  0001 C CNN "Description"
-F 5 "C84263" H 4300 3200 50  0001 C CNN "LCSC Part #"
-F 6 "Foshan NationStar Optoelectronics" H 4300 3200 50  0001 C CNN "Manufacturer"
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 4300 3200 50  0001 C CNN
+F 4 "LIGHT EMITTING DIODES (LED) RED 520~625NM 90~100MCD@20MA TOP VIEW 0603 ROHS" H 4300 3200 50  0001 C CNN "Description"
+F 5 "C2286" H 4300 3200 50  0001 C CNN "LCSC Part #"
+F 6 "Hubei KENTO Elec" H 4300 3200 50  0001 C CNN "Manufacturer"
 F 7 "25mA" H 4300 3200 50  0001 C CNN "Maximum Value"
 F 8 "NCD0603R1" H 4300 3200 50  0001 C CNN "Mfr.Part #"
 F 9 "0603" H 4300 3200 50  0001 C CNN "Package Reference"

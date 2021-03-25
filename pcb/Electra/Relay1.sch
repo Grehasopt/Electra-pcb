@@ -27,7 +27,7 @@ AR Path="/607D3AA6" Ref="D?"  Part="1"
 AR Path="/6072D929/607D3AA6" Ref="D402"  Part="1" 
 AR Path="/60BEC19B/607D3AA6" Ref="D?"  Part="1" 
 F 0 "D402" V 5450 3900 50  0000 R CNN
-F 1 "DIODE" V 5350 3900 50  0000 R CNN
+F 1 "200mA" V 5350 3900 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 5400 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Nexperia-BAS416-115_C89953.pdf" H 5400 3550 50  0001 C CNN
 F 4 "85V 200mA 1.25V @ 150mA SOD-323 Diodes - General Purpose RoHS" H 5400 3550 50  0001 C CNN "Description"
@@ -68,7 +68,7 @@ L Connector:Screw_Terminal_01x03 J401
 U 1 1 607D3AA9
 P 9300 3700
 F 0 "J401" H 9380 3742 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 9380 3651 50  0000 L CNN
+F 1 "Relay 1/U" H 9380 3651 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 9300 3700 50  0001 C CNN
 F 3 "~" H 9300 3700 50  0001 C CNN
 	1    9300 3700
@@ -126,8 +126,8 @@ $Comp
 L Connector:TestPoint TP401
 U 1 1 60BF1CB7
 P 3200 4550
-F 0 "TP401" H 3050 4900 50  0000 L CNN
-F 1 "Test Relay" H 3050 4800 50  0000 L CNN
+F 0 "TP401" H 3150 4900 50  0000 L CNN
+F 1 "T1" H 3150 4800 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3400 4550 50  0001 C CNN
 F 3 "-" H 3400 4550 50  0001 C CNN
 F 4 "Give 3V3 Volts to test relay" H 3200 4550 50  0001 C CNN "Description"
@@ -156,23 +156,6 @@ F 8 "RTT031500FTP" H 4300 2750 50  0001 C CNN "Mfr.Part #"
 F 9 "0603" H 4300 2750 50  0001 C CNN "Package Reference"
 	1    4300 2750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D401
-U 1 1 60BFD3FA
-P 4300 3200
-F 0 "D401" V 4339 3082 50  0000 R CNN
-F 1 "LED" V 4248 3082 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0603R1_C84263.pdf" H 4300 3200 50  0001 C CNN
-F 4 "Red 615~630nm 0603 Light Emitting Diodes (LED) RoHS" H 4300 3200 50  0001 C CNN "Description"
-F 5 "C84263" H 4300 3200 50  0001 C CNN "LCSC Part #"
-F 6 "Foshan NationStar Optoelectronics" H 4300 3200 50  0001 C CNN "Manufacturer"
-F 7 "25mA" H 4300 3200 50  0001 C CNN "Maximum Value"
-F 8 "NCD0603R1" H 4300 3200 50  0001 C CNN "Mfr.Part #"
-F 9 "0603" H 4300 3200 50  0001 C CNN "Package Reference"
-	1    4300 3200
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4300 3050 4300 2900
@@ -277,4 +260,21 @@ Wire Wire Line
 	6250 3950 6250 3850
 Wire Wire Line
 	5850 3950 5850 3850
+$Comp
+L Device:LED D401
+U 1 1 60BFD3FA
+P 4300 3200
+F 0 "D401" V 4339 3082 50  0000 R CNN
+F 1 "R1" V 4248 3082 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 4300 3200 50  0001 C CNN
+F 4 "LIGHT EMITTING DIODES (LED) RED 520~625NM 90~100MCD@20MA TOP VIEW 0603 ROHS" H 4300 3200 50  0001 C CNN "Description"
+F 5 "C2286" H 4300 3200 50  0001 C CNN "LCSC Part #"
+F 6 "Hubei KENTO Elec" H 4300 3200 50  0001 C CNN "Manufacturer"
+F 7 "25mA" H 4300 3200 50  0001 C CNN "Maximum Value"
+F 8 "NCD0603R1" H 4300 3200 50  0001 C CNN "Mfr.Part #"
+F 9 "0603" H 4300 3200 50  0001 C CNN "Package Reference"
+	1    4300 3200
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

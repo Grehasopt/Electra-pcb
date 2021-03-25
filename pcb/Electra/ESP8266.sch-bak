@@ -297,7 +297,7 @@ L Connector:Conn_01x06_Female J601
 U 1 1 60822481
 P 10450 5150
 F 0 "J601" H 10350 4750 50  0000 L CNN
-F 1 "Conn_01x06_Female" V 10650 4950 50  0000 L CNN
+F 1 "FTDI" H 10300 5500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10450 5150 50  0001 C CNN
 F 3 "-" H 10450 5150 50  0001 C CNN
 F 4 "-" H 10450 5150 50  0001 C CNN "Description"
@@ -361,23 +361,6 @@ F 9 "0603" H 8000 4900 50  0001 C CNN "Package Reference"
 	1    8000 4900
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:LED D602
-U 1 1 608DFB8B
-P 8000 5250
-F 0 "D602" V 8050 5150 50  0000 R CNN
-F 1 "LED" V 7950 5150 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8000 5250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603Y1_C84268.pdf" H 8000 5250 50  0001 C CNN
-F 4 "Yellow 586~595nm 0603 Light Emitting Diodes (LED) RoHS" H 8000 5250 50  0001 C CNN "Description"
-F 5 "C84268" H 8000 5250 50  0001 C CNN "LCSC Part #"
-F 6 "Foshan NationStar Optoelectronics" H 8000 5250 50  0001 C CNN "Manufacturer"
-F 7 "15mA" H 8000 5250 50  0001 C CNN "Maximum Value"
-F 8 "NCD0603Y1" H 8000 5250 50  0001 C CNN "Mfr.Part #"
-F 9 "0603" H 8000 5250 50  0001 C CNN "Package Reference"
-	1    8000 5250
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8000 5950 8000 5400
 Wire Wire Line
@@ -386,23 +369,6 @@ Wire Wire Line
 	10050 5150 10250 5150
 Wire Wire Line
 	6150 5950 6150 5450
-$Comp
-L Device:LED D601
-U 1 1 608DE81B
-P 6150 5300
-F 0 "D601" V 6200 5200 50  0000 R CNN
-F 1 "LED" V 6100 5200 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 5300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603Y1_C84268.pdf" H 6150 5300 50  0001 C CNN
-F 4 "Yellow 586~595nm 0603 Light Emitting Diodes (LED) RoHS" H 6150 5300 50  0001 C CNN "Description"
-F 5 "C84268" H 6150 5300 50  0001 C CNN "LCSC Part #"
-F 6 "Foshan NationStar Optoelectronics" H 6150 5300 50  0001 C CNN "Manufacturer"
-F 7 "15mA" H 6150 5300 50  0001 C CNN "Maximum Value"
-F 8 "NCD0603Y1" H 6150 5300 50  0001 C CNN "Mfr.Part #"
-F 9 "0603" H 6150 5300 50  0001 C CNN "Package Reference"
-	1    6150 5300
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6150 5150 6150 5100
 $Comp
@@ -521,8 +487,8 @@ $Comp
 L Device:Jumper_NC_Small JP601
 U 1 1 60C67B52
 P 9800 4750
-F 0 "JP601" V 9850 5550 50  0000 R CNN
-F 1 "Jumper_NC_Small" V 9750 5550 50  0000 R CNN
+F 0 "JP601" V 9850 5150 50  0000 R CNN
+F 1 "Power" V 9750 5150 50  0000 R CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 9800 4750 50  0001 C CNN
 F 3 "-" H 9800 4750 50  0001 C CNN
 F 4 "-" H 9800 4750 50  0001 C CNN "Description"
@@ -551,7 +517,7 @@ L Switch:SW_Push SW601
 U 1 1 6065C688
 P 1650 5350
 F 0 "SW601" V 1696 5302 50  0000 R CNN
-F 1 "SW_Push" V 1605 5302 50  0000 R CNN
+F 1 "Flash" V 1605 5302 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 1650 5550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 1650 5550 50  0001 C CNN
 F 4 "SMD Tactile Switches RoHS" H 1650 5350 50  0001 C CNN "Description"
@@ -569,7 +535,7 @@ L Switch:SW_Push SW602
 U 1 1 6065F662
 P 4050 5250
 F 0 "SW602" V 4096 5202 50  0000 R CNN
-F 1 "SW_Push" V 4005 5202 50  0000 R CNN
+F 1 "RST" V 4005 5202 50  0000 R CNN
 F 2 "Button_Switch_SMD:SW_SPST_EVQPE1" H 4050 5450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2005221232_SHOU-HAN-TS342A2P-WZ_C557591.pdf" H 4050 5450 50  0001 C CNN
 F 4 "SMD Tactile Switches RoHS" H 4050 5250 50  0001 C CNN "Description"
@@ -672,4 +638,38 @@ F 3 "" H 6400 3550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 3250 5750 3550
+$Comp
+L Device:LED D601
+U 1 1 608DE81B
+P 6150 5300
+F 0 "D601" V 6200 5200 50  0000 R CNN
+F 1 "TX" V 6100 5200 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603Y1_C84268.pdf" H 6150 5300 50  0001 C CNN
+F 4 "Yellow 586~595nm 0603 Light Emitting Diodes (LED) RoHS" H 6150 5300 50  0001 C CNN "Description"
+F 5 "C84268" H 6150 5300 50  0001 C CNN "LCSC Part #"
+F 6 "Foshan NationStar Optoelectronics" H 6150 5300 50  0001 C CNN "Manufacturer"
+F 7 "15mA" H 6150 5300 50  0001 C CNN "Maximum Value"
+F 8 "KT-0603R" H 6150 5300 50  0001 C CNN "Mfr.Part #"
+F 9 "0603" H 6150 5300 50  0001 C CNN "Package Reference"
+	1    6150 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D602
+U 1 1 608DFB8B
+P 8000 5250
+F 0 "D602" V 8050 5150 50  0000 R CNN
+F 1 "RX" V 7950 5150 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8000 5250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2008201033_Foshan-NationStar-Optoelectronics-NCD0603Y1_C84268.pdf" H 8000 5250 50  0001 C CNN
+F 4 "Yellow 586~595nm 0603 Light Emitting Diodes (LED) RoHS" H 8000 5250 50  0001 C CNN "Description"
+F 5 "C84268" H 8000 5250 50  0001 C CNN "LCSC Part #"
+F 6 "Foshan NationStar Optoelectronics" H 8000 5250 50  0001 C CNN "Manufacturer"
+F 7 "15mA" H 8000 5250 50  0001 C CNN "Maximum Value"
+F 8 "KT-0603R" H 8000 5250 50  0001 C CNN "Mfr.Part #"
+F 9 "0603" H 8000 5250 50  0001 C CNN "Package Reference"
+	1    8000 5250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

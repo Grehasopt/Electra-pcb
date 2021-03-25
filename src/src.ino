@@ -15,8 +15,11 @@ int rfPin = 14;
 
 long timer;
 
+int led1 = 1;
+int led2 = 3;
+
 void setup(){
-    Serial.begin(115200);
+//    Serial.begin(115/200);
     Serial.println("\n--------------------------------------------------\nHello");
 
     pinMode(Relay1, OUTPUT);
@@ -31,6 +34,11 @@ void setup(){
     mySwitch.enableReceive(rfPin); 
     ds.setupDateTimeBasedCompile();
     timer = millis();
+
+    pinMode(led1,OUTPUT);
+    pinMode(led2,OUTPUT);
+    digitalWrite(led1, LOW);
+    digitalWrite(led2, LOW);
 }
 
 
@@ -39,17 +47,21 @@ void loop(){
     //1
     if(!digitalRead(Switch1)){
         digitalWrite(Relay1, HIGH);
+        digitalWrite(led1, HIGH);
     }
     else{
         digitalWrite(Relay1, LOW);
+        digitalWrite(led1, LOW);
     }
 
     //2
     if(!digitalRead(Switch2)){
         digitalWrite(Relay2, HIGH);
+        digitalWrite(led2, HIGH);
     }
     else{
         digitalWrite(Relay2, LOW);
+        digitalWrite(led2, LOW);
     }
 
     if (mySwitch.available()) {

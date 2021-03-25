@@ -37,6 +37,231 @@ $Bitmap
 Pos 6150 3100
 Scale 1.000000
 Data
+
+EndData
+$EndBitmap
+$Sheet
+S 9500 4900 1450 750 
+U 6086ADDC
+F0 "Reed Switches" 50
+F1 "Reed Switches.sch" 50
+F2 "out1" O L 9500 5150 50 
+F3 "out2" O L 9500 5450 50 
+$EndSheet
+Wire Wire Line
+	9550 3300 9450 3300
+Wire Wire Line
+	9550 1400 9450 1400
+Wire Wire Line
+	8600 3000 8700 3000
+Wire Wire Line
+	8600 2450 8700 2450
+Wire Wire Line
+	3200 4050 3050 4050
+Wire Wire Line
+	3200 3350 3050 3350
+Wire Wire Line
+	3200 2600 2450 2600
+Wire Wire Line
+	3200 1900 3050 1900
+Wire Wire Line
+	9500 5150 9400 5150
+Wire Wire Line
+	9500 5450 9400 5450
+Text Label 9400 5150 2    50   ~ 10
+Switch1
+Text Label 9400 5450 2    50   ~ 10
+Switch2
+Text Label 9450 3300 2    50   ~ 10
+Relay2
+Text Label 9450 1400 2    50   ~ 10
+Relay1
+Text Label 8700 3000 0    50   ~ 10
+L-SDA
+Text Label 8700 2450 0    50   ~ 10
+L-SDL
+Text Label 3050 4050 2    50   ~ 10
+Relay1
+Text Label 3050 3350 2    50   ~ 10
+Switch1
+Text Label 3050 1900 2    50   ~ 10
+Switch2
+Text Label 8700 4850 0    50   ~ 10
+Relay2
+Wire Wire Line
+	8600 4850 8700 4850
+$Sheet
+S 3200 950  5400 4200
+U 606FF326
+F0 "ESP8266" 50
+F1 "ESP8266.sch" 50
+F2 "GPIO15" B R 8600 4850 50 
+F3 "GPIO4" B R 8600 3000 50 
+F4 "GPIO5" B R 8600 2450 50 
+F5 "GPIO12" B L 3200 3350 50 
+F6 "GPIO13" B L 3200 4050 50 
+F7 "GPIO14" B L 3200 2600 50 
+F8 "GPIO16" B L 3200 1900 50 
+F9 "GPIO2" B R 8600 4250 50 
+F10 "GPIO3" B R 8600 1900 50 
+F11 "GPIO1" B R 8600 1400 50 
+F12 "GPIO0" B R 8600 3650 50 
+F13 "GPIO10" B L 3200 4700 50 
+F14 "ADC" B L 3200 1350 50 
+$EndSheet
+NoConn ~ 3200 4700
+Text Notes 1200 5400 0    50   ~ 0
+External RTC module
+Text Notes 8200 1300 0    50   ~ 0
+(TX Led)
+Text Notes 8200 1800 0    50   ~ 0
+(RX Led)
+Text Notes 8600 3800 0    50   ~ 0
+Flash Button
+Text Notes 4000 6550 0    50   ~ 0
+USB or 8-28V DC Input  circuit 
+$Sheet
+S 1150 1000 1300 700 
+U 60D319D8
+F0 "ADC-logic" 50
+F1 "ADC-logic.sch" 50
+F2 "output" O R 2450 1350 50 
+$EndSheet
+Wire Wire Line
+	2450 1350 3200 1350
+Wire Wire Line
+	8600 1400 8650 1400
+Wire Wire Line
+	8600 1900 8650 1900
+Text Label 8650 1400 0    50   ~ 0
+TX
+Text Label 8650 1900 0    50   ~ 0
+RX
+Wire Wire Line
+	7650 5750 7550 5750
+Wire Wire Line
+	7650 5850 7550 5850
+Wire Wire Line
+	7650 5950 7550 5950
+Wire Wire Line
+	7650 6050 7550 6050
+Text Label 7550 5750 2    50   ~ 0
+TX
+$Comp
+L power:GND #PWR0103
+U 1 1 605BF872
+P 7550 5950
+F 0 "#PWR0103" H 7550 5700 50  0001 C CNN
+F 1 "GND" H 7555 5777 50  0000 C CNN
+F 2 "" H 7550 5950 50  0001 C CNN
+F 3 "" H 7550 5950 50  0001 C CNN
+	1    7550 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 605C0C61
+P 7550 6050
+F 0 "#PWR0104" H 7550 5900 50  0001 C CNN
+F 1 "+3V3" V 7450 6050 50  0000 L CNN
+F 2 "" H 7550 6050 50  0001 C CNN
+F 3 "" H 7550 6050 50  0001 C CNN
+	1    7550 6050
+	0    -1   -1   0   
+$EndComp
+Text Label 7550 5850 2    50   ~ 0
+RX
+Text Notes 7600 5550 0    50   ~ 0
+HC06
+$Sheet
+S 1150 2300 1300 650 
+U 605DAAEC
+F0 "RF433Hz-Receiver" 50
+F1 "RF433Hz-Receiver.sch" 50
+F2 "output" O R 2450 2600 50 
+$EndSheet
+Text Notes 2600 2600 0    50   ~ 0
+RF433Mhz
+Text Notes 2900 1350 0    50   ~ 0
+ADC
+Wire Wire Line
+	1600 5850 1500 5850
+Wire Wire Line
+	1600 5750 1500 5750
+Text Label 1500 5850 2    50   ~ 10
+L-SDA
+Text Label 1500 5750 2    50   ~ 10
+L-SDL
+$Comp
+L power:GND #PWR0102
+U 1 1 60C78A09
+P 1350 6150
+F 0 "#PWR0102" H 1350 5900 50  0001 C CNN
+F 1 "GND" H 1355 5977 50  0000 C CNN
+F 2 "" H 1350 6150 50  0001 C CNN
+F 3 "" H 1350 6150 50  0001 C CNN
+	1    1350 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 60C78E20
+P 1050 5800
+F 0 "#PWR0101" H 1050 5650 50  0001 C CNN
+F 1 "+3V3" V 1065 5928 50  0000 L CNN
+F 2 "" H 1050 5800 50  0001 C CNN
+F 3 "" H 1050 5800 50  0001 C CNN
+	1    1050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6050 1350 6050
+Wire Wire Line
+	1350 6050 1350 6150
+Wire Wire Line
+	1050 5950 1600 5950
+Wire Wire Line
+	1050 5800 1050 5950
+NoConn ~ 1600 5650
+NoConn ~ 1600 5550
+$Comp
+L Connector:Conn_01x04_Female J102
+U 1 1 605BB00E
+P 7850 5850
+F 0 "J102" H 7878 5826 50  0000 L CNN
+F 1 "UART" H 7878 5735 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 5850 50  0001 C CNN
+F 3 "-" H 7850 5850 50  0001 C CNN
+F 4 "-" H 7850 5850 50  0001 C CNN "Mfr.Part #"
+F 5 "2.54mm" H 7850 5850 50  0001 C CNN "Package Reference"
+F 6 "-" H 7850 5850 50  0001 C CNN "Description"
+F 7 "-" H 7850 5850 50  0001 C CNN "LCSC Part #"
+F 8 "-" H 7850 5850 50  0001 C CNN "Manufacturer"
+F 9 "-" H 7850 5850 50  0001 C CNN "Maximum Value"
+	1    7850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J101
+U 1 1 60626341
+P 1800 5750
+F 0 "J101" H 1828 5726 50  0000 L CNN
+F 1 "RTC" H 1828 5635 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1800 5750 50  0001 C CNN
+F 3 "~" H 1800 5750 50  0001 C CNN
+F 4 "-" H 1800 5750 50  0001 C CNN "Description"
+F 5 "-" H 1800 5750 50  0001 C CNN "LCSC Part #"
+F 6 "-" H 1800 5750 50  0001 C CNN "Manufacturer"
+F 7 "-" H 1800 5750 50  0001 C CNN "Maximum Value"
+F 8 "-" H 1800 5750 50  0001 C CNN "Mfr.Part #"
+F 9 "-" H 1800 5750 50  0001 C CNN "Package Reference"
+	1    1800 5750
+	1    0    0    -1  
+$EndComp
+$Bitmap
+Pos 6150 3550
+Scale 1.000000
+Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 05 06 00 00 03 4D 08 02 00 00 00 4A 8E 34 
 6F 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 20 00 49 44 41 54 78 9C EC DD 77 70 5D 57 
 9E 27 F6 DF 39 E7 86 97 23 1E 1E 32 88 C0 1C 45 52 94 D4 0A AD 19 B5 B6 D5 3D 61 A7 76 66 7B B7 
@@ -8440,222 +8665,4 @@ E4 8A C2 C3 21 BB 5A 29 9A 86 6E 18 7A BF 3F 1E 8D A7 42 5E F2 06 10 46 29 E3 2C
 42 60 82 
 EndData
 $EndBitmap
-$Sheet
-S 9500 4900 1450 750 
-U 6086ADDC
-F0 "Reed Switches" 50
-F1 "Reed Switches.sch" 50
-F2 "out1" O L 9500 5150 50 
-F3 "out2" O L 9500 5450 50 
-$EndSheet
-Wire Wire Line
-	9550 3300 9450 3300
-Wire Wire Line
-	9550 1400 9450 1400
-Wire Wire Line
-	8600 3000 8700 3000
-Wire Wire Line
-	8600 2450 8700 2450
-Wire Wire Line
-	3200 4050 3050 4050
-Wire Wire Line
-	3200 3350 3050 3350
-Wire Wire Line
-	3200 2600 2450 2600
-Wire Wire Line
-	3200 1900 3050 1900
-Wire Wire Line
-	9500 5150 9400 5150
-Wire Wire Line
-	9500 5450 9400 5450
-Text Label 9400 5150 2    50   ~ 10
-Switch1
-Text Label 9400 5450 2    50   ~ 10
-Switch2
-Text Label 9450 3300 2    50   ~ 10
-Relay2
-Text Label 9450 1400 2    50   ~ 10
-Relay1
-Text Label 8700 3000 0    50   ~ 10
-L-SDA
-Text Label 8700 2450 0    50   ~ 10
-L-SDL
-Text Label 3050 4050 2    50   ~ 10
-Relay1
-Text Label 3050 3350 2    50   ~ 10
-Switch1
-Text Label 3050 1900 2    50   ~ 10
-Switch2
-Text Label 8700 4850 0    50   ~ 10
-Relay2
-Wire Wire Line
-	8600 4850 8700 4850
-$Sheet
-S 3200 950  5400 4200
-U 606FF326
-F0 "ESP8266" 50
-F1 "ESP8266.sch" 50
-F2 "GPIO15" B R 8600 4850 50 
-F3 "GPIO4" B R 8600 3000 50 
-F4 "GPIO5" B R 8600 2450 50 
-F5 "GPIO12" B L 3200 3350 50 
-F6 "GPIO13" B L 3200 4050 50 
-F7 "GPIO14" B L 3200 2600 50 
-F8 "GPIO16" B L 3200 1900 50 
-F9 "GPIO2" B R 8600 4250 50 
-F10 "GPIO3" B R 8600 1900 50 
-F11 "GPIO1" B R 8600 1400 50 
-F12 "GPIO0" B R 8600 3650 50 
-F13 "GPIO10" B L 3200 4700 50 
-F14 "ADC" B L 3200 1350 50 
-$EndSheet
-NoConn ~ 3200 4700
-Text Notes 1200 5400 0    50   ~ 0
-External RTC module
-Text Notes 8200 1300 0    50   ~ 0
-(TX Led)
-Text Notes 8200 1800 0    50   ~ 0
-(RX Led)
-Text Notes 8600 3800 0    50   ~ 0
-Flash Button
-Text Notes 4000 6550 0    50   ~ 0
-USB or 8-28V DC Input  circuit 
-$Sheet
-S 1150 1000 1300 700 
-U 60D319D8
-F0 "ADC-logic" 50
-F1 "ADC-logic.sch" 50
-F2 "output" O R 2450 1350 50 
-$EndSheet
-Wire Wire Line
-	2450 1350 3200 1350
-Wire Wire Line
-	8600 1400 8650 1400
-Wire Wire Line
-	8600 1900 8650 1900
-Text Label 8650 1400 0    50   ~ 0
-TX
-Text Label 8650 1900 0    50   ~ 0
-RX
-Wire Wire Line
-	7650 5750 7550 5750
-Wire Wire Line
-	7650 5850 7550 5850
-Wire Wire Line
-	7650 5950 7550 5950
-Wire Wire Line
-	7650 6050 7550 6050
-Text Label 7550 5750 2    50   ~ 0
-TX
-$Comp
-L power:GND #PWR0103
-U 1 1 605BF872
-P 7550 5950
-F 0 "#PWR0103" H 7550 5700 50  0001 C CNN
-F 1 "GND" H 7555 5777 50  0000 C CNN
-F 2 "" H 7550 5950 50  0001 C CNN
-F 3 "" H 7550 5950 50  0001 C CNN
-	1    7550 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR0104
-U 1 1 605C0C61
-P 7550 6050
-F 0 "#PWR0104" H 7550 5900 50  0001 C CNN
-F 1 "+3V3" V 7450 6050 50  0000 L CNN
-F 2 "" H 7550 6050 50  0001 C CNN
-F 3 "" H 7550 6050 50  0001 C CNN
-	1    7550 6050
-	0    -1   -1   0   
-$EndComp
-Text Label 7550 5850 2    50   ~ 0
-RX
-Text Notes 7600 5550 0    50   ~ 0
-HC06
-$Sheet
-S 1150 2300 1300 650 
-U 605DAAEC
-F0 "RF433Hz-Receiver" 50
-F1 "RF433Hz-Receiver.sch" 50
-F2 "output" O R 2450 2600 50 
-$EndSheet
-Text Notes 2600 2600 0    50   ~ 0
-RF433Mhz
-Text Notes 2900 1350 0    50   ~ 0
-ADC
-Wire Wire Line
-	1600 5850 1500 5850
-Wire Wire Line
-	1600 5750 1500 5750
-Text Label 1500 5850 2    50   ~ 10
-L-SDA
-Text Label 1500 5750 2    50   ~ 10
-L-SDL
-$Comp
-L power:GND #PWR0102
-U 1 1 60C78A09
-P 1350 6150
-F 0 "#PWR0102" H 1350 5900 50  0001 C CNN
-F 1 "GND" H 1355 5977 50  0000 C CNN
-F 2 "" H 1350 6150 50  0001 C CNN
-F 3 "" H 1350 6150 50  0001 C CNN
-	1    1350 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0101
-U 1 1 60C78E20
-P 1050 5800
-F 0 "#PWR0101" H 1050 5650 50  0001 C CNN
-F 1 "+3V3" V 1065 5928 50  0000 L CNN
-F 2 "" H 1050 5800 50  0001 C CNN
-F 3 "" H 1050 5800 50  0001 C CNN
-	1    1050 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 6050 1350 6050
-Wire Wire Line
-	1350 6050 1350 6150
-Wire Wire Line
-	1050 5950 1600 5950
-Wire Wire Line
-	1050 5800 1050 5950
-NoConn ~ 1600 5650
-NoConn ~ 1600 5550
-$Comp
-L Connector:Conn_01x04_Female J102
-U 1 1 605BB00E
-P 7850 5850
-F 0 "J102" H 7878 5826 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 7878 5735 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 5850 50  0001 C CNN
-F 3 "-" H 7850 5850 50  0001 C CNN
-F 4 "-" H 7850 5850 50  0001 C CNN "Mfr.Part #"
-F 5 "2.54mm" H 7850 5850 50  0001 C CNN "Package Reference"
-F 6 "-" H 7850 5850 50  0001 C CNN "Description"
-F 7 "-" H 7850 5850 50  0001 C CNN "LCSC Part #"
-F 8 "-" H 7850 5850 50  0001 C CNN "Manufacturer"
-F 9 "-" H 7850 5850 50  0001 C CNN "Maximum Value"
-	1    7850 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Female J101
-U 1 1 60626341
-P 1800 5750
-F 0 "J101" H 1828 5726 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 1828 5635 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1800 5750 50  0001 C CNN
-F 3 "~" H 1800 5750 50  0001 C CNN
-F 4 "-" H 1800 5750 50  0001 C CNN "Description"
-F 5 "-" H 1800 5750 50  0001 C CNN "LCSC Part #"
-F 6 "-" H 1800 5750 50  0001 C CNN "Manufacturer"
-F 7 "-" H 1800 5750 50  0001 C CNN "Maximum Value"
-F 8 "-" H 1800 5750 50  0001 C CNN "Mfr.Part #"
-F 9 "-" H 1800 5750 50  0001 C CNN "Package Reference"
-	1    1800 5750
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
