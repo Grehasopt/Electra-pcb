@@ -1,0 +1,37 @@
+Comment,Designator,Footprint,LCSC,Quantity
+10uF,C201,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,C92800,1
+100uF,"C203,C208",Capacitor_SMD:CP_Elec_5x5.4,C96182,2
+0.1uF,"C202,C204,C601",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C478888,3
+22uF,"C205,C206",Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,C319200,2
+75pF,C207,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1681,1
+47uF,C602,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C140782,1
+DIODE 3A,D201,Diode_SMD:D_SMA,C18905,1
+200mA diodes,"D302,D402",Diode_SMD:D_SOD-323,C89953,2
+Red led,"D301,D401",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C84263,2
+Green led,D202,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C205443,1
+Yellow led,"D601,D602",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C84268,2
+8-28V,J201,Connector_BarrelJack:BarrelJack_Horizontal,C319099,1
+USB micro b,J202,Connector_USB:USB_Micro-B_Molex-105017-0001,C10418,1
+AC Terminals,"J301,J401",TerminalBlock:TerminalBlock_bornier-3_P5.08mm,C8377,2
+Relay,"K301,K401",Relay_THT:Relay_SPDT_Finder_36.11,C9221,2
+15uH,L201,Inductor_SMD:L_10.4x10.4_H4.8,C182182,1
+200mA NPN BJT,"Q301,Q401",Package_TO_SOT_SMD:SOT-323_SC-70,C75568,2
+BSS138,Q801,Package_TO_SOT_SMD:SOT-23,C426569,1
+511K,R201,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23194,1
+105K,R202,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C16840,1
+80,"R203,R604,R607",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C202954,3
+49.9,R204,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C163926,1
+100K,R205,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C15458,1
+13.3K,R206,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25952,1
+1K,"R301,R401,R703",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C115325,3
+150,"R302,R402",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C103302,2
+10K,"R501,R502,R601,R602,R603,R605,R606,R801,R802",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C98220,9
+3.57K,R701,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22998,1
+7.5K,R702,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C310285,1
+Buttons,"SW601,SW602",Button_Switch_SMD:SW_SPST_EVQPE1,C557591,2
+AMS1117-3.3,U201,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C347222,1
+TPS54202DDCR,U202,Package_TO_SOT_SMD:SOT-23-6,C191884,1
+ESP-12F,U601,RF_Module:ESP-12E,C82891,1
+blue led,DXXX,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C193191,2
+blue resistor,RXXX,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C319824,2
+terminal male block,"EXX1, EXX2",-,C71370,2
