@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "Electra Project"
-Date "2021-03-21"
-Rev "1"
+Date "2021-04-01"
+Rev "2.0"
 Comp "Grehasopt"
 Comment1 "https://github.com/Grehasopt/Electra"
 Comment2 "Remote Relay Switches"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3500 5900 2250 1300
+S 4450 6200 2250 1300
 U 60781751
 F0 "Power" 50
 F1 "Power.sch" 50
@@ -25,13 +25,6 @@ U 6079F8F1
 F0 "Relay2" 50
 F1 "Relay2.sch" 50
 F2 "Control_pin" I L 9550 3300 50 
-$EndSheet
-$Sheet
-S 9550 1100 1350 600 
-U 6072D929
-F0 "Relay1" 50
-F1 "Relay1.sch" 50
-F2 "Control_pin" I L 9550 1400 50 
 $EndSheet
 $Bitmap
 Pos 6150 3100
@@ -109,8 +102,7 @@ F12 "GPIO0" B R 8600 3650 50
 F13 "GPIO10" B L 3200 4700 50 
 F14 "ADC" B L 3200 1350 50 
 $EndSheet
-NoConn ~ 3200 4700
-Text Notes 1200 5400 0    50   ~ 0
+Text Notes 1050 5950 0    50   ~ 0
 External RTC module
 Text Notes 8200 1300 0    50   ~ 0
 (TX Led)
@@ -118,7 +110,7 @@ Text Notes 8200 1800 0    50   ~ 0
 (RX Led)
 Text Notes 8600 3800 0    50   ~ 0
 Flash Button
-Text Notes 4000 6550 0    50   ~ 0
+Text Notes 4950 6850 0    50   ~ 0
 USB or 8-28V DC Input  circuit 
 $Sheet
 S 1150 1000 1300 700 
@@ -133,45 +125,45 @@ Wire Wire Line
 	8600 1400 8650 1400
 Wire Wire Line
 	8600 1900 8650 1900
-Text Label 8650 1400 0    50   ~ 0
+Text Label 8650 1400 0    50   ~ 10
 TX
-Text Label 8650 1900 0    50   ~ 0
+Text Label 8650 1900 0    50   ~ 10
 RX
 Wire Wire Line
-	7650 5750 7550 5750
+	3050 6150 2950 6150
 Wire Wire Line
-	7650 5850 7550 5850
+	3050 6250 2950 6250
 Wire Wire Line
-	7650 5950 7550 5950
+	3050 6350 2950 6350
 Wire Wire Line
-	7650 6050 7550 6050
-Text Label 7550 5750 2    50   ~ 0
+	3050 6450 2950 6450
+Text Label 2950 6150 2    50   ~ 10
 TX
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR0107
 U 1 1 605BF872
-P 7550 5950
-F 0 "#PWR0103" H 7550 5700 50  0001 C CNN
-F 1 "GND" H 7555 5777 50  0000 C CNN
-F 2 "" H 7550 5950 50  0001 C CNN
-F 3 "" H 7550 5950 50  0001 C CNN
-	1    7550 5950
+P 2950 6350
+F 0 "#PWR0107" H 2950 6100 50  0001 C CNN
+F 1 "GND" H 2955 6177 50  0000 C CNN
+F 2 "" H 2950 6350 50  0001 C CNN
+F 3 "" H 2950 6350 50  0001 C CNN
+	1    2950 6350
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR0104
+L power:+3V3 #PWR0108
 U 1 1 605C0C61
-P 7550 6050
-F 0 "#PWR0104" H 7550 5900 50  0001 C CNN
-F 1 "+3V3" V 7450 6050 50  0000 L CNN
-F 2 "" H 7550 6050 50  0001 C CNN
-F 3 "" H 7550 6050 50  0001 C CNN
-	1    7550 6050
+P 2950 6450
+F 0 "#PWR0108" H 2950 6300 50  0001 C CNN
+F 1 "+3V3" V 2850 6450 50  0000 L CNN
+F 2 "" H 2950 6450 50  0001 C CNN
+F 3 "" H 2950 6450 50  0001 C CNN
+	1    2950 6450
 	0    -1   -1   0   
 $EndComp
-Text Label 7550 5850 2    50   ~ 0
+Text Label 2950 6250 2    50   ~ 10
 RX
-Text Notes 7600 5550 0    50   ~ 0
+Text Notes 3000 5950 0    50   ~ 0
 HC06
 $Sheet
 S 1150 2300 1300 650 
@@ -185,77 +177,69 @@ RF433Mhz
 Text Notes 2900 1350 0    50   ~ 0
 ADC
 Wire Wire Line
-	1600 5850 1500 5850
+	1450 6400 1350 6400
 Wire Wire Line
-	1600 5750 1500 5750
-Text Label 1500 5850 2    50   ~ 10
+	1450 6300 1350 6300
+Text Label 1350 6400 2    50   ~ 10
 L-SDA
-Text Label 1500 5750 2    50   ~ 10
+Text Label 1350 6300 2    50   ~ 10
 L-SDL
 $Comp
-L power:GND #PWR0102
+L power:GND #PWR0104
 U 1 1 60C78A09
-P 1350 6150
-F 0 "#PWR0102" H 1350 5900 50  0001 C CNN
-F 1 "GND" H 1355 5977 50  0000 C CNN
-F 2 "" H 1350 6150 50  0001 C CNN
-F 3 "" H 1350 6150 50  0001 C CNN
-	1    1350 6150
+P 1200 6700
+F 0 "#PWR0104" H 1200 6450 50  0001 C CNN
+F 1 "GND" H 1205 6527 50  0000 C CNN
+F 2 "" H 1200 6700 50  0001 C CNN
+F 3 "" H 1200 6700 50  0001 C CNN
+	1    1200 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0101
 U 1 1 60C78E20
-P 1050 5800
-F 0 "#PWR0101" H 1050 5650 50  0001 C CNN
-F 1 "+3V3" V 1065 5928 50  0000 L CNN
-F 2 "" H 1050 5800 50  0001 C CNN
-F 3 "" H 1050 5800 50  0001 C CNN
-	1    1050 5800
+P 900 6350
+F 0 "#PWR0101" H 900 6200 50  0001 C CNN
+F 1 "+3V3" V 915 6478 50  0000 L CNN
+F 2 "" H 900 6350 50  0001 C CNN
+F 3 "" H 900 6350 50  0001 C CNN
+	1    900  6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 6050 1350 6050
+	1450 6600 1200 6600
 Wire Wire Line
-	1350 6050 1350 6150
+	1200 6600 1200 6700
 Wire Wire Line
-	1050 5950 1600 5950
+	900  6500 1450 6500
 Wire Wire Line
-	1050 5800 1050 5950
-NoConn ~ 1600 5650
-NoConn ~ 1600 5550
+	900  6350 900  6500
+NoConn ~ 1450 6200
+NoConn ~ 1450 6100
 $Comp
-L Connector:Conn_01x04_Female J102
+L Connector:Conn_01x04_Female J104
 U 1 1 605BB00E
-P 7850 5850
-F 0 "J102" H 7878 5826 50  0000 L CNN
-F 1 "UART" H 7878 5735 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7850 5850 50  0001 C CNN
-F 3 "-" H 7850 5850 50  0001 C CNN
-F 4 "-" H 7850 5850 50  0001 C CNN "Mfr.Part #"
-F 5 "2.54mm" H 7850 5850 50  0001 C CNN "Package Reference"
-F 6 "-" H 7850 5850 50  0001 C CNN "Description"
-F 7 "-" H 7850 5850 50  0001 C CNN "LCSC Part #"
-F 8 "-" H 7850 5850 50  0001 C CNN "Manufacturer"
-F 9 "-" H 7850 5850 50  0001 C CNN "Maximum Value"
-	1    7850 5850
+P 3250 6250
+F 0 "J104" H 3278 6226 50  0000 L CNN
+F 1 "UART" H 3278 6135 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3250 6250 50  0001 C CNN
+F 3 "~" H 3250 6250 50  0001 C CNN
+F 4 "2.54mm" H 3250 6250 50  0001 C CNN "Package Reference"
+F 5 "-" H 3250 6250 50  0001 C CNN "Maximum Value"
+	1    3250 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J101
+L Connector:Conn_01x06_Female J102
 U 1 1 60626341
-P 1800 5750
-F 0 "J101" H 1828 5726 50  0000 L CNN
-F 1 "RTC" H 1828 5635 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1800 5750 50  0001 C CNN
-F 3 "~" H 1800 5750 50  0001 C CNN
-F 4 "-" H 1800 5750 50  0001 C CNN "Description"
-F 5 "-" H 1800 5750 50  0001 C CNN "LCSC Part #"
-F 6 "-" H 1800 5750 50  0001 C CNN "Manufacturer"
-F 7 "-" H 1800 5750 50  0001 C CNN "Maximum Value"
-F 8 "-" H 1800 5750 50  0001 C CNN "Mfr.Part #"
-F 9 "-" H 1800 5750 50  0001 C CNN "Package Reference"
-	1    1800 5750
+P 1650 6300
+F 0 "J102" H 1678 6276 50  0000 L CNN
+F 1 "RTC" H 1678 6185 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1650 6300 50  0001 C CNN
+F 3 "~" H 1650 6300 50  0001 C CNN
+F 4 "-" H 1650 6300 50  0001 C CNN "Maximum Value"
+F 5 "2.54mm" H 1650 6300 50  0001 C CNN "Package Reference"
+	1    1650 6300
 	1    0    0    -1  
 $EndComp
 $Bitmap
@@ -8665,4 +8649,111 @@ E4 8A C2 C3 21 BB 5A 29 9A 86 6E 18 7A BF 3F 1E 8D A7 42 5E F2 06 10 46 29 E3 2C
 42 60 82 
 EndData
 $EndBitmap
+Text Notes 4720 1215 0    50   ~ 0
+Maybe button footprint fix
+$Sheet
+S 9550 1100 1350 600 
+U 6072D929
+F0 "Relay1" 50
+F1 "Relay1.sch" 50
+F2 "Control_pin" I L 9550 1400 50 
+$EndSheet
+Wire Wire Line
+	8600 4250 8700 4250
+Wire Wire Line
+	3200 4700 3050 4700
+Text Label 3050 4700 2    50   ~ 10
+Extra1
+Text Label 8700 4250 0    50   ~ 10
+Extra2
+$Comp
+L Connector:Conn_01x03_Female J101
+U 1 1 60C06348
+P 1450 4450
+F 0 "J101" H 1478 4430 50  0000 L CNN
+F 1 "Extra1" H 1478 4385 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1450 4450 50  0001 C CNN
+F 3 "~" H 1450 4450 50  0001 C CNN
+	1    1450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60C07106
+P 1100 4650
+F 0 "#PWR0103" H 1100 4400 50  0001 C CNN
+F 1 "GND" H 1105 4477 50  0000 C CNN
+F 2 "" H 1100 4650 50  0001 C CNN
+F 3 "" H 1100 4650 50  0001 C CNN
+	1    1100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4550 1100 4550
+Wire Wire Line
+	1100 4550 1100 4650
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 60C086AC
+P 1100 4250
+F 0 "#PWR0102" H 1100 4100 50  0001 C CNN
+F 1 "+3V3" V 1000 4250 50  0000 L CNN
+F 2 "" H 1100 4250 50  0001 C CNN
+F 3 "" H 1100 4250 50  0001 C CNN
+	1    1100 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4350 1100 4350
+Wire Wire Line
+	1100 4350 1100 4250
+Wire Wire Line
+	1250 4450 950  4450
+$Comp
+L Connector:Conn_01x03_Female J103
+U 1 1 60C0CBFD
+P 2600 4450
+F 0 "J103" H 2628 4430 50  0000 L CNN
+F 1 "Extra2" H 2628 4385 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2600 4450 50  0001 C CNN
+F 3 "~" H 2600 4450 50  0001 C CNN
+	1    2600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60C0CC03
+P 2250 4650
+F 0 "#PWR0106" H 2250 4400 50  0001 C CNN
+F 1 "GND" H 2255 4477 50  0000 C CNN
+F 2 "" H 2250 4650 50  0001 C CNN
+F 3 "" H 2250 4650 50  0001 C CNN
+	1    2250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4550 2250 4550
+Wire Wire Line
+	2250 4550 2250 4650
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 60C0CC0B
+P 2250 4250
+F 0 "#PWR0105" H 2250 4100 50  0001 C CNN
+F 1 "+3V3" V 2150 4250 50  0000 L CNN
+F 2 "" H 2250 4250 50  0001 C CNN
+F 3 "" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4350 2250 4350
+Wire Wire Line
+	2250 4350 2250 4250
+Wire Wire Line
+	2400 4450 2100 4450
+Text Label 950  4450 2    50   ~ 10
+Extra1
+Text Label 2100 4450 2    50   ~ 10
+Extra2
 $EndSCHEMATC
