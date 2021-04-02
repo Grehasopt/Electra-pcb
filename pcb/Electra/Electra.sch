@@ -111,7 +111,7 @@ Text Notes 8200 1800 0    50   ~ 0
 Text Notes 8600 3800 0    50   ~ 0
 Flash Button
 Text Notes 4950 6850 0    50   ~ 0
-USB or 8-28V DC Input  circuit 
+USB or 7-12V DC Input  circuit 
 $Sheet
 S 1150 1000 1300 700 
 U 60D319D8

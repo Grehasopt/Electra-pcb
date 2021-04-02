@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Panelization)(type KiCad)(uri /home/cs-du/Documents/Kicad/From-Github/Kicad-Footprints-master/Panelization.pretty)(options "")(descr ""))
+)
