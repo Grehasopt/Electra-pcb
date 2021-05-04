@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP XL1509-5.0E1
-D Fixed frequency PWM buck (step-down) DC/DC converter (2A max load)
-$ENDCMP
-#
-#End Doc Library
