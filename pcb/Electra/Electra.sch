@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "Electra Project"
-Date "2021-04-01"
-Rev "2.0"
+Date "2021-05-04"
+Rev "2.1"
 Comp "Grehasopt"
 Comment1 "https://github.com/Grehasopt/Electra"
 Comment2 "Remote Relay Switches"
@@ -8756,4 +8756,6 @@ Text Label 950  4450 2    50   ~ 10
 Extra1
 Text Label 2100 4450 2    50   ~ 10
 Extra2
+Text Notes 2050 5050 0    50   ~ 0
+ONLY as Output
 $EndSCHEMATC

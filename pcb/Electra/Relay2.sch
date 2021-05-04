@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "Electra Project"
-Date "2021-04-01"
-Rev "2.0"
+Date "2021-05-04"
+Rev "2.1"
 Comp "Grehasopt"
 Comment1 "https://github.com/Grehasopt/Electra"
 Comment2 "Remote Relay Switches"
@@ -38,7 +38,7 @@ F 6 "LL-34" H 5400 3650 50  0001 C CNN "Package Reference"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NPN_EBC Q?
+L Device:Q_NPN_BEC Q?
 U 1 1 60678E78
 P 4200 4650
 AR Path="/60678E78" Ref="Q?"  Part="1" 

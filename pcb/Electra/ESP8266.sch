@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 8
 Title "Electra Project"
-Date "2021-04-01"
-Rev "2.0"
+Date "2021-05-04"
+Rev "2.1"
 Comp "Grehasopt"
 Comment1 "https://github.com/Grehasopt/Electra"
 Comment2 "Remote Relay Switches"

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "Electra Project"
-Date "2021-04-01"
-Rev "2.0"
+Date "2021-05-04"
+Rev "2.1"
 Comp "Grehasopt"
 Comment1 "https://github.com/Grehasopt/Electra"
 Comment2 "Remote Relay Switches"
@@ -120,4 +120,6 @@ Wire Wire Line
 Connection ~ 6050 3565
 Wire Wire Line
 	6050 3565 6050 3420
+Text Notes 7050 3800 0    50   ~ 0
+Voltage divider to go from 5v to 3.3v for ESP8266 input
 $EndSCHEMATC
