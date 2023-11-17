@@ -3,6 +3,7 @@ Remote Relays Board
 
 ## Electra
 ![](/doc/Electra-rev2.0-ray.png)
+![](/doc/electra.png)
 
 ---
 
