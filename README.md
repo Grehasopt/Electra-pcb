@@ -32,3 +32,6 @@ Remote Relays Board
 
 #### Page 8
 ![](/doc/schematic/Electra-page-8.png)
+
+## License
+This project is licensed under the CERN-OHL-S-2.0 with the added condition that it may not be used for commercial purposes without prior permission from the license holder.
